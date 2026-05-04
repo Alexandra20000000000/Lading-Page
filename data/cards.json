@@ -1,0 +1,48 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "icon": "icon-analysis.svg",
+      "name": "Data Analytics Corp",
+      "description": "Leading data analytics solutions for enterprise businesses worldwide.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "icon": "icon-ml.svg",
+      "name": "ML Solutions",
+      "description": "Machine learning platforms that transform raw data into predictions.",
+      "link": "#",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "icon": "icon-viz.svg",
+      "name": "VizTech",
+      "description": "Interactive dashboards and data visualization for smart decisions.",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "icon": "icon-bigdata.svg",
+      "name": "BigData Systems",
+      "description": "Scalable big data infrastructure for high-volume processing.",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "icon": "icon-stats.svg",
+      "name": "StatCore",
+      "description": "Advanced statistical modeling and hypothesis validation services.",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "icon": "icon-cloud.svg",
+      "name": "CloudData Inc",
+      "description": "Cloud-native data solutions with high availability and security.",
+      "link": "#",
+      "featured": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data Science Pioneers - Landing Page sobre ciencia de datos">
+  <title>Data Science Pioneers</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+  <!-- ===== ENCABEZADO / NAVEGACIÓN ===== -->
+  <div id="navbar-container"></div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <div id="hero-container"></div>
+
+    <!-- ===== SECCIÓN NOTICE / PROMOCIONAL ===== -->
+    <div id="enter-now-container"></div>
+
+    <!-- ===== SECCIÓN INFORMATIVA (Video Cards) ===== -->
+    <section class="info" id="info">
+      <div class="info__steps">
+        <article class="info__step">
+          <img class="info__step-image" src="./assets/images/img2.png" alt="Data Science Episode 1">
+          <a class="info__step-watch" href="#">
+            <svg class="info__step-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8-13-8z"/></svg>
+            Watch
+          </a>
+        </article>
+        <article class="info__step">
+          <img class="info__step-image" src="./assets/images/img3.png" alt="Data Science Episode 2">
+          <a class="info__step-watch" href="#">
+            <svg class="info__step-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8-13-8z"/></svg>
+            Watch
+          </a>
+        </article>
+        <article class="info__step">
+          <img class="info__step-image" src="./assets/images/img4.png" alt="Data Science Episode 3">
+          <a class="info__step-watch" href="#">
+            <svg class="info__step-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8-13-8z"/></svg>
+            Watch
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== COMPANIES INVOLVED (Cards con fetch) ===== -->
+    <section class="companies" id="companies">
+      <h2 class="companies__title">COMPANIES INVOLVED</h2>
+      <div class="companies__grid">
+        <!-- Las cards se cargan dinámicamente con fetch desde data/cards.json -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <img class="footer__logo-icon" src="./assets/icons/icon1.svg" alt="" width="32" height="32" aria-hidden="true">
+          <span class="footer__logo-text">DataPioneers</span>
+        </div>
+        <p class="footer__brand-desc">Transforming data into intelligent decisions.</p>
+      </div>
+      <div class="footer__nav">
+        <h3 class="footer__heading">Navigation</h3>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#hero">Home</a></li>
+          <li><a class="footer__link" href="#">Watch on Demand</a></li>
+          <li><a class="footer__link" href="#">Stay in the Loop</a></li>
+          <li><a class="footer__link" href="#">Press Room</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h3 class="footer__heading">Contact</h3>
+        <ul class="footer__list">
+          <li class="footer__contact-item">info@datapioneers.com</li>
+          <li class="footer__contact-item">+57 300 123 4567</li>
+          <li class="footer__contact-item">Bogotá, Colombia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2026 DataPioneers. All rights reserved.</p>
+      <p class="footer__license">License <a class="footer__license-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
